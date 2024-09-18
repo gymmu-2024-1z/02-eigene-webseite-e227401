@@ -16,9 +16,31 @@
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von ...</h1>
+            <h1>Webseite von Laila Suter</h1>
         </header>
+      <svg height="100" width="300">
+        <circle cx="50" cy="50" r="50" fill="purple"/>
+       
+        <circle cx="250" cy="50" r="50" fill="purple"/>
+     
+    <rect x="50" y="40" height="20" width="100" fill="purple" />
+    <rect x="120" y="40" height="20" width="100" fill="purple" />
+    
+        <ellipse cx="250" cy="50" rx="50" ry="50" fill="lightblue">
+          <animate attributeName="ry" values="50;25;50" dur="0.5s" repeatCount="indefinite"/>
+        </ellipse>
+        <ellipse cx="50" cy="50" rx="50" ry="50" fill="lightblue">
+            <animate attributeName="ry" values="50;25;50" dur="0.5s" repeatCount="indefinite"/>
+          <ellipse cx="" cy="" rx="" ry="" />
+         
+       
+     
+        
+   
+</svg>
+     
 
+        </a>
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
             denen man auf Unterwebseiten kommt. 
@@ -28,6 +50,12 @@
             <ul>
                 <li>
                     <a href="./pages/hobbies.html">Hobbies</a>
+                </li>
+                <li>
+                    <a href="./pages/steckbrief.html">Steckbrief</a>
+                </li>
+                <li>
+                    <a href="./pages/Schullaufbahn.html">Schullaufbahn</a>
                 </li>
             </ul>
         </nav>
@@ -41,40 +69,40 @@
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2>Erster Abschnitt</h2>
+                <h2>Über mich</h2>
                 <p>
                     <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-                    itaque eaque vel necessitatibus amet consectetur corrupti
-                    repudiandae ipsam aliquam sint.
+                    Willkommen auf meiner eigenen Webseite! Ich heisse Laila
+                    Suter und unter den Unterwebseiten finden Sie mehr
+                    Informationen über mich.
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    natus magni non cumque voluptatum similique ullam
-                    temporibus. Magni sequi sunt temporibus ab a nobis quo non,
-                    molestias sapiente dolorum repellendus obcaecati odit, dolor
-                    quae illo ratione, veniam autem id praesentium. Consectetur,
-                    totam asperiores expedita culpa doloribus nesciunt error
-                    architecto dolorum!
-                </p>
+                <p></p>
             </section>
 
+            <h2>Meine Zukunftsträume</h2>
             <section>
-                <h2>Abschnitt mit Text und Bild</h2>
                 <div class="text-and-img">
                     <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
                     Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
                     verwendet, damit wir den Effekt von einem Text neben einem Bild
                     einfach hinbekommen können. -->
                     <div class="text">
-                        Hier ist eine Beschreibung von dem Bild, oder einfach
-                        Text der dazu passen könnte.
+                        Ein Traum von mir ist es mal in den Denali-Nationalpark
+                        in Alaska zu reisen.
+
+                        <img
+                            src="https://i.pinimg.com/originals/4f/1f/8e/4f1f8eb60736dd1b58a532faf85957b4.jpg"
+                            alt=""
+                        />
                     </div>
-                    <div class="image">
-                        <img src="/img/mountains.png" alt="" />
-                    </div>
+                    Ein anderer ist mal auf Safari zu gehen.
+                    <div class="image"></div>
+                    <img
+                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Feu-images.contentstack.com%2Fv3%2Fassets%2Fblte218090c2a6fb1e2%2Fblt97941e9a6f40e992%2F6255e91e746e586fb9dd06c1%2Fafrika-tansania-nationalpark-elefanten-dertour-g-472058123.jpg&f=1&nofb=1&ipt=2f55ec3227f5f5e44a96e464539cf6907e79aad7b395ed1bd2b0b2bc846d6796&ipo=images"
+                        alt=""
+                    />
                 </div>
             </section>
         </main>
